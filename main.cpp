@@ -93,5 +93,16 @@ void thirdExercise(){
 
 int main() {
     
+    int funcCall;
+    std::cin >> funcCall;
+    if(funcCall == 1){
+        firstExercise();
+    }else if(funcCall == 2){
+        secondExercise();
+    }else if(funcCall == 3){
+        thirdExercise();
+    }
+
+
     return 0;
 }
